@@ -1,0 +1,72 @@
+body{
+  background-color: #171515;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  color: #D43790;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveCountDiv {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.cnntWalletButton{
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  background-color: #D43790;  
+  margin-top: 16px;
+  padding: 8px;
+}
+
+.waveButton {
+  cursor: pointer;
+  border: 0;
+  border-radius: 5px;
+  background-color: #D43790;  
+  margin-right: 50px;
+  float: right;
+}
+
+.waveLi{
+  background-color: #B99095; 
+  margin-top: 16px;
+  padding: 8px;
+}
+
+.textInput{
+  background-color: #B99095; 
+  margin-left: 75px;
+  float: left;
+}
+
+.inputBlock>*{
+  display: inline-block;
+  margin-top: 16px;
+  padding: 8px;
+}
